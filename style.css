@@ -425,7 +425,7 @@ section{
 }
 .login{
     width: 100%;
-    height: fit-content;
+    height: 800px;
     padding-top: 2rem;
     padding-left: 0;
     padding-right: 0;
@@ -450,6 +450,7 @@ section{
 }
 .login-img img{
     width: 100%;
+    object-fit: cover;
 }
 .login-in-lable-1{
     font-family: Montserrat;
@@ -484,6 +485,9 @@ section{
 }
 .footer-lable{
     color: #fff;
+}
+.footer-lable a{
+    color: antiquewhite;
 }
 @media only screen and (min-width:794px) {
     .better{
